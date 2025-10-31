@@ -1,0 +1,35 @@
+## Server .gitignore - Node / Express
+
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime files
+pids/
+*.pid
+
+# Local env files (sensitive)
+.env
+.env.local
+
+# Build / output
+dist/
+build/
+
+# Debug
+.cache/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
